@@ -1,0 +1,25 @@
+
+
+h3
+  center
+    | we will come back soon
+
+
+- if flash[:success]
+  h1
+    = flash[:success]
+
+- if flash[:error]
+  h1 style="color: red;"
+    = flash[:error]
+
+= form_tag subscribe_path, method: "post"  do
+  p
+    = label_tag :email
+    br
+
+     = email_field_tag :email
+
+
+  p
+    = submit_tag

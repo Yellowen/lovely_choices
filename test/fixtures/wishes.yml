@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  url: MyString
+  reserved: false
+  has_been_purchased: false
+  comment: MyText
+
+two:
+  title: MyString
+  url: MyString
+  reserved: false
+  has_been_purchased: false
+  comment: MyText
