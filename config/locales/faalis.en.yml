@@ -77,6 +77,8 @@ en:
 
       index_section:
         add_button: "New %{resource}"
+      index_view:
+        new_button: 'New %{title}'
 
 
     permissions:
