@@ -1,6 +1,5 @@
-GIT
-  remote: git://github.com/Yellowen/Faalis.git
-  revision: d250a3f0bfe6853c09571a6d6f22bd3b91f10a60
+PATH
+  remote: ../Faalis
   specs:
     faalis (2.0.0.rc3)
       admin_lte-rails (~> 2.2.0.7)
@@ -338,3 +337,6 @@ DEPENDENCIES
   turbolinks
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
+
+BUNDLED WITH
+   1.10.6
