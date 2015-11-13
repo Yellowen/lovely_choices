@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+ 
+  mount Faalis::Engine => '/'
+
+  api_routes do
+    # Your API routes goes here.
+  end
+
+  in_dashboard do
+    resources :wishes
+    # Your dashboard routes goes here.
+  end
+
   post 'subscribe', to: 'welcome#subscribe'
 
   # The priority is based upon order of creation: first created -> highest priority.

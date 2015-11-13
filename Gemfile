@@ -1,3 +1,21 @@
+source 'http://rails-assets.org' do
+  gem 'rails-assets-bootstrap-rtl'
+  gem 'rails-assets-jquery-knob'
+  gem 'rails-assets-bootstrap-daterangepicker'
+  gem 'rails-assets-jquery-sparkline'
+  gem 'rails-assets-jquery-icheck'
+
+  group :development, :test do
+    gem 'rails-assets-sugar'
+    gem 'rails-assets-bootstrap-rtl'
+    gem 'rails-assets-jquery-knob'
+    gem 'rails-assets-bootstrap-daterangepicker'
+    gem 'rails-assets-jquery-sparkline'
+    gem 'rails-assets-jquery-icheck'
+    gem 'rails-assets-admin-lte'
+  end
+end
+
 source 'https://rubygems.org'
 
 
@@ -43,14 +61,6 @@ group :development, :test do
   gem 'rubocop'
   gem 'rb-readline'
   gem 'annotate'
-  gem 'faalis', path: '../Faalis'
-  gem 'rails-assets-sugar'
-  gem 'rails-assets-bootstrap-rtl'
-  gem 'rails-assets-jquery-knob'
-  gem 'rails-assets-bootstrap-daterangepicker'
-  gem 'rails-assets-jquery-sparkline'
-  gem 'rails-assets-jquery-icheck'
-  gem 'rails-assets-admin-lte'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
@@ -58,3 +68,13 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+gem 'jquery-turbolinks'
+gem 'minitest'
+
+gem 'faalis', github: 'Yellowen/Faalis'
+gem 'autoprefixer-rails'
+gem 'momentjs-rails'
+gem 'bootstrap3-datetimepicker-rails'
+gem 'admin_lte-rails'
+gem 'rails-i18n'
