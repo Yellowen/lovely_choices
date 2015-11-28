@@ -1,3 +1,4 @@
+source 'http://rails-assets.org'
 source 'http://rails-assets.org' do
   gem 'rails-assets-bootstrap-rtl'
   gem 'rails-assets-jquery-knob'
@@ -67,9 +68,15 @@ end
 gem 'jquery-turbolinks'
 gem 'minitest'
 
-gem 'faalis', github: 'Yellowen/Faalis'
+gem 'faalis', path: '../Faalis' #github: 'Yellowen/Faalis'
 gem 'autoprefixer-rails'
 gem 'momentjs-rails'
 gem 'bootstrap3-datetimepicker-rails'
 gem 'admin_lte-rails'
 gem 'rails-i18n'
+
+#gem 'rails-assets-bootstrap-rtl'
+#gem 'rails-assets-jquery-knob'
+#gem 'rails-assets-bootstrap-daterangepicker'
+#gem 'rails-assets-jquery-sparkline'
+#gem 'rails-assets-jquery-icheck'
