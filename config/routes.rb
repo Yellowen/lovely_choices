@@ -1,3 +1,4 @@
+
 Rails.application.routes.draw do
 
   mount Faalis::Engine => '/'
@@ -7,6 +8,7 @@ Rails.application.routes.draw do
   end
 
   in_dashboard do
+    resources :categories
     resources :wishes
     # Your dashboard routes goes here.
   end
