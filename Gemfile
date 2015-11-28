@@ -7,11 +7,6 @@ source 'http://rails-assets.org' do
 
   group :development, :test do
     gem 'rails-assets-sugar'
-    gem 'rails-assets-bootstrap-rtl'
-    gem 'rails-assets-jquery-knob'
-    gem 'rails-assets-bootstrap-daterangepicker'
-    gem 'rails-assets-jquery-sparkline'
-    gem 'rails-assets-jquery-icheck'
     gem 'rails-assets-admin-lte'
   end
 end
